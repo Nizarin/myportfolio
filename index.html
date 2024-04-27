@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I&apos;m Anan Nizarin</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/03d394caa7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header starts -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="./images/logo.png" alt="logo" class="logo" /> -->
+          <h1>
+            <div class="fullname">
+              <div class="namestyle">Anan</div>
+              &nbsp;
+              <div class="namestyle">Nizarin</div>
+            </div>
+          </h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">content</a></li>
+            <i class="fa-solid fa-xmark fa-fade" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars fa-fade" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>
+            Hi&#x2c; I&apos;m <span>Anan Nizarin</span> <br />From Thrissur
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- Header ends -->
+
+    <!-- About starts -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./assets/images/1.jpg" alt="" srcset="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="sub-con">
+              Hello, I'm Anan Nizarin from Thrissur. I'm a full-stack developer
+              known for delivering clean code and pixel-perfect designs. I
+              specialize in making websites more interactive with engaging web
+              animations. Additionally, I prioritize responsive design to ensure
+              accessibility across all devices for a seamless user experience.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML & CSS</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>Bootstrap</span></li>
+                <li><span>ReactJs</span></li>
+                <li><span>React Native</span></li>
+                <li><span>python django</span></li>
+                <li><span>Node.js</span> ( Using Express.js framework )</li>
+                <li><span>MongoDB</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span
+                    >Master of Computer Application ( MCA ), 2022 - 2024 </span
+                  ><br />RVS College of Arts and Science, Coimbatore<br />Specialized
+                  in MERN Stack
+                </li>
+                <li>
+                  <span
+                    >Bachelor of Computer Application ( BCA ), Oct 2018 - Jul
+                    2021</span
+                  ><br />Mar Dionysius College Of Arts And Science
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About ends -->
+
+    <!-- Portfolio starts -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <iframe
+              width="360"
+              height="215"
+              src="https://www.youtube.com/embed/7VgaD5F30KI?si=S07t25m447DDJOC7"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="work">
+            <iframe
+              width="360"
+              height="215"
+              src="https://www.youtube.com/embed/jGYxwf1Y0C4?si=Hr0J9d6sYPOf3-IR"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="work">
+            <iframe
+              width="360"
+              height="215"
+              src="https://www.youtube.com/embed/H-kaMZrr6qM?si=98axhKN6O-zjhIzF"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio ends -->
+
+    <!-- Contact starts -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> anannizarin@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 8606294922</p>
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/aj_hems?igsh=MXYzc21yMzYwOXd2MA=="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://tinyurl.com/2a4267ep"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a
+              href="./assets/Document/Anan Nizarin Resume.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="6ef929c2-eabb-4944-8e76-5086f706adf6"
+              />
+
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="alert"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; <span id="year"></span> Anan Nizarin. Made
+          <i class="fa-solid fa-heart"></i> by Anan Nizarin
+        </p>
+      </div>
+    </div>
+    <!-- Contact ends -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <!-- Date -->
+
+    <script>
+      const toDay = new Date();
+      const getYear = toDay.getFullYear();
+      const viewport = (document.getElementById("year").innerHTML = getYear);
+    </script>
+  </body>
+</html>
